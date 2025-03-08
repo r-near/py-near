@@ -51,7 +51,7 @@ class ReceiptOutcome:
     receipt_id: str
 
     def __init__(self, data):
-        self.receipt_id = data['id']
+        self.receipt_id = data["id"]
         self.logs = data["outcome"]["logs"]
         self.metadata = data["outcome"]["metadata"]
         self.receipt_ids = data["outcome"]["receipt_ids"]
