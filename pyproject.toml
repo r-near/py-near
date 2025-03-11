@@ -1,6 +1,6 @@
 [project]
 name = "py-near-forked"
-version = "1.2.0"
+version = "0.1.0"
 description = "Pretty simple and fully asynchronous framework for working with NEAR blockchain"
 authors = [{ name = "pvolnov", email = "petr@herewallet.app" }]
 license = { file = "LICENSE" }
