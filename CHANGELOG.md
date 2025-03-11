@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.1 (2025-03-11)
+
+### Bug Fixes
+
+- **ci**: Project name
+  ([`90eb3d0`](https://github.com/r-near/py-near/commit/90eb3d0d4e0cd151036e0b3f235c08dd70fe5228))
+
+
 ## v0.1.0 (2025-03-11)
 
 ### Bug Fixes
