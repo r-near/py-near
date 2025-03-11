@@ -1,5 +1,5 @@
 [project]
-name = "py-near"
+name = "py-near-forked"
 version = "1.2.0"
 description = "Pretty simple and fully asynchronous framework for working with NEAR blockchain"
 authors = [{ name = "pvolnov", email = "petr@herewallet.app" }]
@@ -50,3 +50,10 @@ dev = [
     "sphinx-rtd-theme<2.0.0,>=1.0.0",
     "pytest-asyncio<1.0.0,>=0.23.5",
 ]
+
+[tool.semantic_release]
+version_toml = ["pyproject.toml:project.version"]
+branch = "main"
+changelog_file = "CHANGELOG.md"
+commit_message = "chore(release): {version} [skip ci]"
+build_command = "uv build"
