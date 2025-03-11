@@ -42,6 +42,9 @@ addopts = "--capture=no --tb=native"
 testpaths = ["tests"]
 asyncio_mode = "auto"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/py_near"]
+
 [dependency-groups]
 dev = [
     "mypy<1.0,>=0.930",
